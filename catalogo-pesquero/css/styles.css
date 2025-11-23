@@ -109,6 +109,16 @@ body {
     padding-top: 80px;
 }
 
+/* Hero específico de la portada con barracuda de fondo */
+.hero-home {
+    background-image:
+        linear-gradient(135deg, rgba(0, 23, 43, 0.65), rgba(15, 118, 110, 0.35)),
+        url('../img/barracuda-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .hero-content {
     max-width: 800px;
     padding: 0 20px;
