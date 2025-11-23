@@ -24,6 +24,10 @@ body {
     overflow-x: hidden;
 }
 
+.home-page {
+    overflow-y: hidden;
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -112,8 +116,8 @@ body {
 /* Hero específico de la portada con barracuda de fondo */
 .hero-home {
     background-image:
-        linear-gradient(135deg, rgba(0, 23, 43, 0.65), rgba(15, 118, 110, 0.35)),
-        url('../img/barracuda-hero.jpg');
+        linear-gradient(135deg, rgba(0, 23, 43, 0.45), rgba(15, 118, 110, 0.25)),
+        url('../img/barracuda.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -128,20 +132,21 @@ body {
 .hero h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    color: var(--gris-oscuro);
-    line-height: 1.2;
+    color: #ffffff;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.55);
 }
 
 .hero h2 {
     font-size: 2.2rem;
     margin-bottom: 1.5rem;
-    color: var(--turquesa);
+    color: #e0ffff;
     font-weight: 600;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 }
 
 .subtitle {
     font-size: 1.2rem;
-    color: #666;
+    color: #f9fafb;
     margin-bottom: 2.5rem;
     max-width: 600px;
     margin-left: auto;
