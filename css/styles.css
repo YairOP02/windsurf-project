@@ -117,7 +117,7 @@ body {
 .hero-home {
     background-image:
         linear-gradient(135deg, rgba(0, 23, 43, 0.45), rgba(15, 118, 110, 0.25)),
-        url('../img/inicio.jpg');
+        url('../Imagenes/inicio.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -254,8 +254,8 @@ body {
 /* Hero específico para la página de Tradición */
 .hero-tradicion {
     background-image:
-        linear-gradient(135deg, rgba(0, 20, 40, 0.55), rgba(15, 118, 110, 0.35)),
-        url('../img/pescadores.jpg');
+        linear-gradient(135deg, rgba(15, 23, 42, 0.6), rgba(8, 47, 73, 0.4)),
+        url('../Imagenes/pescadores.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -264,8 +264,8 @@ body {
 /* Hero específico para la página de Consumo Responsable */
 .hero-consumo {
     background-image:
-        linear-gradient(135deg, rgba(0, 20, 40, 0.6), rgba(15, 118, 110, 0.35)),
-        url('../img/mercado.jpg');
+        linear-gradient(135deg, rgba(8, 47, 73, 0.7), rgba(59, 130, 246, 0.3)),
+        url('../Imagenes/mercado.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -274,8 +274,8 @@ body {
 /* Hero específico para la página de Especies */
 .hero-especies {
     background-image:
-        linear-gradient(135deg, rgba(0, 20, 40, 0.55), rgba(15, 118, 110, 0.35)),
-        url('../img/atarraya.jpg');
+        linear-gradient(135deg, rgba(0, 0, 0, 0.55), rgba(31, 197, 197, 0.35)),
+        url('../Imagenes/atarraya.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -284,8 +284,8 @@ body {
 /* Hero específico para la página de Contacto */
 .hero-contacto {
     background-image:
-        linear-gradient(135deg, rgba(0, 20, 40, 0.6), rgba(31, 197, 197, 0.4)),
-        url('../img/contactos.jpg');
+        linear-gradient(135deg, rgba(15, 23, 42, 0.65), rgba(8, 47, 73, 0.4)),
+        url('../Imagenes/contactos.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -493,7 +493,7 @@ body {
     box-shadow: var(--sombra);
     background-image:
         linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(245, 248, 252, 0.82)),
-        url('../img/Tablape.jpg');
+        url('../Imagenes/Tablape.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
