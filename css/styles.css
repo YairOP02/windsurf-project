@@ -377,6 +377,8 @@ body {
 
 .card-body {
     padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .link-button {
@@ -389,6 +391,8 @@ body {
     font-weight: 500;
     cursor: pointer;
     transition: background 0.25s ease, transform 0.2s ease;
+    align-self: center;
+    margin-bottom: 0.25rem;
 }
 
 .link-button:hover {
