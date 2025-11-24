@@ -100,6 +100,22 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
 
+    // Hacer clicable toda la tarjeta de especie usando el enlace interno
+    const specieCards = document.querySelectorAll('.especie-card');
+    specieCards.forEach(card => {
+        const link = card.querySelector('a[href]');
+        if (!link) return;
+
+        card.style.cursor = 'pointer';
+
+        card.addEventListener('click', (e) => {
+            // Si el usuario hizo clic directamente en un enlace dentro de la tarjeta, respetar su comportamiento por defecto
+            if (e.target.closest('a')) return;
+
+            window.location.href = link.href;
+        });
+    });
+
         // Animación para tarjetas de especies
         gsap.utils.toEach('.especie-card', (card, i) => {
             gsap.from(card, {

@@ -255,7 +255,7 @@ body {
 .hero-tradicion {
     background-image:
         linear-gradient(135deg, rgba(15, 23, 42, 0.6), rgba(8, 47, 73, 0.4)),
-        url('../Imagenes/pescadores.jpg');
+        url('../Imagenes/Pescadores.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -380,7 +380,7 @@ body {
 }
 
 .link-button {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     padding: 0.55rem 1.4rem;
     border-radius: 999px;
     border: none;
@@ -395,6 +395,19 @@ body {
     background-color: var(--turquesa);
     color: var(--blanco);
     transform: translateY(-2px);
+}
+
+/* Botón de volver al catálogo en páginas de detalle */
+.back-to-catalog {
+    display: inline-block;
+    margin: 1.5rem 0 0 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .back-to-catalog {
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
 }
 
 /* Secciones de especie */
