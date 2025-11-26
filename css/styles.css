@@ -6,6 +6,8 @@
     --blanco: #FFFFFF;
     --gris-claro: #F5F7FA;
     --gris-oscuro: #333333;
+    --azul-marino: #082F49;
+    --azul-cian: #00A8CC;
     --sombra: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -271,6 +273,16 @@ body {
     background-repeat: no-repeat;
 }
 
+/* Hero específico para la página de Recetas */
+.hero-recetas {
+    background-image:
+        linear-gradient(135deg, rgba(8, 47, 73, 0.7), rgba(59, 130, 246, 0.3)),
+        url('../Imagenes/comia.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* Hero específico para la página de Especies */
 .hero-especies {
     background-image:
@@ -401,10 +413,704 @@ body {
     transform: translateY(-2px);
 }
 
+/* Hero sections con imágenes de cardúmenes */
+.hero-small.barracuda-hero {
+    background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
+                url('../Imagenes/cardumen_barracuda.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-small.lisa-hero {
+    background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
+                url('../Imagenes/cardumen_lisa.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-small.medregal-hero {
+    background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
+                url('../Imagenes/cardumen_medregal.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-small.machuelo-hero {
+    background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
+                url('../Imagenes/cardumen_machuelo.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-small.jaiba-hero {
+    background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
+                url('../Imagenes/cardumen_jaiba.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Hero para páginas de recetas individuales con imagen gastronómica */
+.hero-small.recipe-hero {
+    background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
+                url('../Imagenes/gastrono.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Estilos para la página de Conoce el Caribe */
+.beach-subtitle {
+    color: var(--turquesa);
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.5rem 0 1rem 0;
+    font-style: italic;
+}
+
+.species-highlight {
+    margin-top: auto;
+    padding-top: 1rem;
+}
+
+.species-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.species-tag {
+    background: linear-gradient(135deg, var(--turquesa), var(--azul-cian));
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+/* Estilos específicos para tarjetas de playas */
+.beaches-grid .beach-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.beaches-grid .beach-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.beaches-grid .card-image {
+    height: 200px;
+    overflow: hidden;
+}
+
+.beaches-grid .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.beaches-grid .beach-card:hover .card-image img {
+    transform: scale(1.05);
+}
+
+.beaches-grid .card-body {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.beaches-grid .card-body h3 {
+    color: var(--azul-marino);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.beaches-grid .card-body p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.beach-quote {
+    font-style: italic;
+    color: var(--gris-oscuro);
+    border-left: 3px solid var(--turquesa);
+    padding-left: 1rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Estilos para el formulario de contacto */
+.form-status {
+    margin-bottom: 1rem;
+}
+
+.status-message {
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.status-message.sending {
+    background-color: #e3f2fd;
+    color: #1976d2;
+    border: 1px solid #bbdefb;
+}
+
+.status-message.success {
+    background-color: #e8f5e8;
+    color: #2e7d32;
+    border: 1px solid #c8e6c9;
+}
+
+.status-message.error {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #ffcdd2;
+}
+
+/* Estilos para la página de Consumo Responsable */
+.guide-section {
+    margin-bottom: 3rem;
+}
+
+.guide-section.bg-soft {
+    background-color: var(--gris-claro);
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+}
+
+/* Criterios Grid */
+.criteria-grid {
+    gap: 2rem;
+}
+
+.criteria-card {
+    padding: 2rem;
+    border-radius: 12px;
+    border: 2px solid;
+}
+
+.criteria-card.good {
+    background-color: #e8f5e8;
+    border-color: #4caf50;
+}
+
+.criteria-card.bad {
+    background-color: #ffebee;
+    border-color: #f44336;
+}
+
+.criteria-card h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: var(--gris-oscuro);
+}
+
+.criteria-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.criteria-card li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.criteria-card li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.criteria-card.good li::before {
+    color: #4caf50;
+}
+
+.criteria-card.bad li::before {
+    color: #f44336;
+}
+
+/* Species Sizes */
+.species-sizes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.size-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--turquesa);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.size-item h4 {
+    color: var(--azul-marino);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.size-measure {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--gris-oscuro);
+}
+
+.size-measure .highlight {
+    color: var(--turquesa);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/* Alert Boxes */
+.alert-box {
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border-left: 4px solid;
+}
+
+.alert-box.warning {
+    background-color: #fff3cd;
+    border-color: #ffc107;
+    color: #856404;
+}
+
+.alert-box.info {
+    background-color: #d1ecf1;
+    border-color: #17a2b8;
+    color: #0c5460;
+}
+
+/* Seasons Grid */
+.seasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.season-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.season-card h4 {
+    color: var(--azul-marino);
+    margin-bottom: 0.5rem;
+}
+
+.season-months {
+    font-weight: 600;
+    color: var(--turquesa);
+    margin-bottom: 1rem;
+}
+
+.season-bar {
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.season-active {
+    height: 100%;
+    background: linear-gradient(90deg, var(--turquesa), var(--azul-cian));
+    border-radius: 4px;
+}
+
+/* Handling Grid */
+.handling-grid {
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.handling-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.handling-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--turquesa), var(--azul-cian));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+}
+
+.icon-circle i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.handling-card h4 {
+    color: var(--azul-marino);
+    margin-bottom: 0.5rem;
+}
+
+.handling-card p {
+    color: var(--gris-oscuro);
+    font-size: 1.1rem;
+}
+
+/* Benefits Grid */
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.benefit-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.benefit-item:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-item i {
+    font-size: 2.5rem;
+    color: var(--turquesa);
+    margin-bottom: 1rem;
+}
+
+.benefit-item h4 {
+    color: var(--azul-marino);
+    margin-bottom: 0.5rem;
+}
+
+.benefit-item p {
+    color: var(--gris-oscuro);
+}
+
+/* Alternatives List */
+.alternatives-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.alternative-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.alternative-item i {
+    color: #4caf50;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.alternative-item p {
+    margin: 0;
+    color: var(--gris-oscuro);
+}
+
+/* Reasons Grid */
+.reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.reason-card {
+    background: linear-gradient(135deg, var(--turquesa), var(--azul-cian));
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.reason-card:hover {
+    transform: translateY(-5px);
+}
+
+.reason-card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.reason-card p {
+    margin: 0;
+    opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .criteria-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .species-sizes {
+        grid-template-columns: 1fr;
+    }
+    
+    .seasons-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .handling-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .reasons-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .guide-section.bg-soft {
+        padding: 1rem;
+    }
+}
+
+/* Estilos para secciones de ubicaciones en páginas de especies */
+.locations-section {
+    margin-top: 2rem;
+}
+
+.locations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.location-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.location-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.location-image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.location-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.location-card:hover .location-image img {
+    transform: scale(1.05);
+}
+
+.location-content {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.location-card h3 {
+    color: var(--azul-marino);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.location-card p {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.preparation-note {
+    background: rgba(31, 197, 197, 0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--turquesa);
+    text-align: center;
+}
+
+.preparation-note h4 {
+    color: var(--azul-marino);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.preparation-note h4 i {
+    color: var(--turquesa);
+    margin-right: 0.5rem;
+}
+
+.preparation-note p {
+    color: #666;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .locations-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .location-card {
+        padding: 1rem;
+    }
+    
+    .location-icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .location-icon i {
+        font-size: 1.2rem;
+    }
+}
+
 /* Botón de volver al catálogo en páginas de detalle */
 .back-to-catalog {
     display: inline-block;
-    margin: 1.5rem 0 0 1.5rem;
+    margin: 2.5rem 0 0 0;
+}
+
+/* Estilos adicionales para las páginas de recetas individuales */
+.recipe-steps {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgba(31, 197, 197, 0.05);
+    border-radius: 12px;
+    border-left: 4px solid var(--turquesa);
+}
+
+.recipe-steps h4 {
+    font-size: 0.9rem;
+    color: var(--azul-marino);
+    margin-bottom: 0.8rem;
+}
+
+.recipe-steps ol {
+    padding-left: 1.5rem;
+    margin-bottom: 0;
+}
+
+.recipe-steps li {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.video-tutorial {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.video-tutorial h4 {
+    font-size: 0.9rem;
+    color: var(--azul-marino);
+    margin-bottom: 0.8rem;
+}
+
+.video-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--turquesa);
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.video-link:hover {
+    background-color: rgba(31, 197, 197, 0.1);
+}
+
+.video-link i {
+    font-size: 1.1rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    text-align: center;
+}
+
+.feature-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
+
+.feature-card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+@media (max-width: 992px) {
+    .features-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
 }
 
 .chip i {

@@ -18,7 +18,6 @@
                 <ul class="nav-links">
                     <li><a href="../index.html#inicio">Inicio</a></li>
                     <li><a href="especies.html">Especies</a></li>
-                    <li><a href="tradicion.html">Tradición</a></li>
                     <li><a href="recetas.html">Recetas</a></li>
                     <li><a href="conoce.html">Conoce el Caribe</a></li>
                     <li><a href="consumo.html" class="active">Consumo Responsable</a></li>
@@ -41,34 +40,235 @@
             </div>
         </section>
 
-        <!-- Bloques de consumo responsable + texto de conclusión, reutilizados del index -->
+        <!-- Guía Detallada de Consumo Responsable -->
         <section class="section fade-up">
             <div class="container">
-                <div class="section-header">
-                    <h2>Guía para un consumo responsable</h2>
-                    <p>Cuatro claves para honrar el mar en cada decisión de compra.</p>
+                <div class="section-header text-center">
+                    <h2>Guía Detallada para Consumo Sostenible</h2>
+                    <p class="lead">Aprende a elegir, manipular y consumir pescado de manera responsable</p>
                 </div>
-                <div class="grid-4 steps-grid">
-                    <article class="step-card card">
-                        <span class="step-number">01</span>
-                        <h3>Cómo elegir pescado fresco</h3>
-                        <p>Ojos brillantes, branquias rojas, olor suave a mar y carne firme son señales de calidad.</p>
-                    </article>
-                    <article class="step-card card">
-                        <span class="step-number">02</span>
-                        <h3>Qué tamaños evitar</h3>
-                        <p>No consumir ejemplares por debajo de la talla mínima. Permite que las poblaciones se reproduzcan.</p>
-                    </article>
-                    <article class="step-card card">
-                        <span class="step-number">03</span>
-                        <h3>Señales de alerta</h3>
-                        <p>Olor fuerte, textura blanda, manchas oscuras o mucosidad excesiva indican descomposición.</p>
-                    </article>
-                    <article class="step-card card">
-                        <span class="step-number">04</span>
-                        <h3>Beneficios de comprar a pescadores artesanales</h3>
-                        <p>Fortalece economías locales, promueve artes de pesca selectivas y reduce la huella ecológica.</p>
-                    </article>
+                
+                <!-- Criterios para Elegir Pescado Fresco -->
+                <div class="guide-section">
+                    <div class="section-header">
+                        <h3><i class="fas fa-fish"></i> 1. Criterios para Elegir Pescado Fresco</h3>
+                        <p>Señales clave que garantizan calidad y frescura</p>
+                    </div>
+                    <div class="grid-2 criteria-grid">
+                        <div class="criteria-card good">
+                            <h4>✅ Busca estas características:</h4>
+                            <ul>
+                                <li><strong>Ojos:</strong> Brillantes y transparentes, no hundidos</li>
+                                <li><strong>Branquias:</strong> Rojas o rosadas, sin mal olor</li>
+                                <li><strong>Carne:</strong> Firme al tacto, que vuelva a su forma rápidamente</li>
+                                <li><strong>Escamas:</strong> Adheridas y piel brillante</li>
+                                <li><strong>Olor:</strong> Fresco y suave, nunca amoniacal</li>
+                            </ul>
+                        </div>
+                        <div class="criteria-card bad">
+                            <h4>❌ Evita estas señales:</h4>
+                            <ul>
+                                <li><strong>Aletas rotas o resecas:</strong> Indica mal manejo</li>
+                                <li><strong>Manchas oscuras:</strong> Textura blanda o viscosa</li>
+                                <li><strong>Olor fuerte:</strong> Desagradable, no apto para consumo</li>
+                                <li><strong>Parásitos visibles:</strong> En piel o vísceras</li>
+                                <li><strong>Ojos hundidos:</strong> Opacos o secos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tamaños Mínimos de Captura -->
+                <div class="guide-section bg-soft">
+                    <div class="section-header">
+                        <h3><i class="fas fa-ruler"></i> 2. Tamaños Mínimos de Captura (AUNAP y FAO)</h3>
+                        <p>Respetar estas medidas garantiza la sostenibilidad de las poblaciones</p>
+                    </div>
+                    <div class="species-sizes">
+                        <div class="size-item">
+                            <h4>🦀 Jaiba (Callinectes sapidus)</h4>
+                            <p class="size-measure">Carapacho <span class="highlight">≥ 12 cm</span></p>
+                        </div>
+                        <div class="size-item">
+                            <h4>🐟 Barracuda (Sphyraena barracuda)</h4>
+                            <p class="size-measure">Longitud total <span class="highlight">≥ 45 cm</span></p>
+                        </div>
+                        <div class="size-item">
+                            <h4>🐠 Lisa (Mugil incilis)</h4>
+                            <p class="size-measure">Longitud <span class="highlight">≥ 25 cm</span></p>
+                        </div>
+                        <div class="size-item">
+                            <h4>🐟 Machuelo (Opisthonema oglinum)</h4>
+                            <p class="size-measure">Longitud <span class="highlight">≥ 14–15 cm</span></p>
+                        </div>
+                        <div class="size-item">
+                            <h4>🐠 Medregal (Seriola dumerili)</h4>
+                            <p class="size-measure">Longitud <span class="highlight">≥ 60 cm</span></p>
+                        </div>
+                    </div>
+                    <div class="alert-box warning">
+                        <p><strong>⚠️ Importante:</strong> Consumir individuos más pequeños afecta la reproducción y disminuye la población.</p>
+                    </div>
+                </div>
+
+                <!-- Temporadas Reproductivas -->
+                <div class="guide-section">
+                    <div class="section-header">
+                        <h3><i class="fas fa-calendar-alt"></i> 3. Temporadas y Períodos Reproductivos</h3>
+                        <p>Evita comprar estas especies durante sus meses pico de reproducción</p>
+                    </div>
+                    <div class="seasons-grid">
+                        <div class="season-card">
+                            <h4>🦀 Jaiba</h4>
+                            <p class="season-months">Marzo – Junio</p>
+                            <div class="season-bar">
+                                <div class="season-active" style="width: 33%; margin-left: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="season-card">
+                            <h4>🐠 Lisa</h4>
+                            <p class="season-months">Agosto – Octubre</p>
+                            <div class="season-bar">
+                                <div class="season-active" style="width: 25%; margin-left: 58%;"></div>
+                            </div>
+                        </div>
+                        <div class="season-card">
+                            <h4>🐟 Machuelo</h4>
+                            <p class="season-months">Abril – Julio</p>
+                            <div class="season-bar">
+                                <div class="season-active" style="width: 33%; margin-left: 25%;"></div>
+                            </div>
+                        </div>
+                        <div class="season-card">
+                            <h4>🐠 Medregal</h4>
+                            <p class="season-months">Mayo – Septiembre</p>
+                            <div class="season-bar">
+                                <div class="season-active" style="width: 42%; margin-left: 33%;"></div>
+                            </div>
+                        </div>
+                        <div class="season-card">
+                            <h4>🐟 Barracuda</h4>
+                            <p class="season-months">Abril – Junio</p>
+                            <div class="season-bar">
+                                <div class="season-active" style="width: 25%; margin-left: 25%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alert-box info">
+                        <p><strong>ℹ️ Respetar vedas:</strong> Asegura la sostenibilidad de las especies y el futuro de la pesca.</p>
+                    </div>
+                </div>
+
+                <!-- Manipulación en Casa -->
+                <div class="guide-section bg-soft">
+                    <div class="section-header">
+                        <h3><i class="fas fa-home"></i> 4. Recomendaciones de Manipulación en Casa</h3>
+                        <p>Proper handling ensures freshness and safety</p>
+                    </div>
+                    <div class="grid-3 handling-grid">
+                        <div class="handling-card">
+                            <div class="icon-circle">
+                                <i class="fas fa-temperature-low"></i>
+                            </div>
+                            <h4>Refrigeración</h4>
+                            <p>Mantener a <strong>4°C o menos</strong></p>
+                        </div>
+                        <div class="handling-card">
+                            <div class="icon-circle">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4>Consumo</h4>
+                            <p>En máximo <strong>24–48 horas</strong></p>
+                        </div>
+                        <div class="handling-card">
+                            <div class="icon-circle">
+                                <i class="fas fa-snowflake"></i>
+                            </div>
+                            <h4>Congelación</h4>
+                            <p>Si no se usa pronto (<strong>máx. 3 meses</strong>)</p>
+                        </div>
+                    </div>
+                    <div class="alert-box warning">
+                        <p><strong>⚠️ Evita:</strong> Descongelar y recongelar el pescado repetidamente.</p>
+                    </div>
+                </div>
+
+                <!-- Beneficios de Pescadores Artesanales -->
+                <div class="guide-section">
+                    <div class="section-header">
+                        <h3><i class="fas fa-hands-helping"></i> 5. Beneficios de Comprar a Pescadores Artesanales</h3>
+                        <p>Apoya la economía local y prácticas sostenibles</p>
+                    </div>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <i class="fas fa-coins"></i>
+                            <h4>Economía Local</h4>
+                            <p>Se apoya la economía local y las tradiciones</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-leaf"></i>
+                            <h4>Pesca Selectiva</h4>
+                            <p>Procesos más selectivos y con menor impacto ambiental</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-fish"></i>
+                            <h4>Producto Fresco</h4>
+                            <p>Producto más fresco y trazable</p>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Artes Sostenibles</h4>
+                            <p>Menor uso de artes de pesca destructivas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alternativas Sostenibles -->
+                <div class="guide-section bg-soft">
+                    <div class="section-header">
+                        <h3><i class="fas fa-recycle"></i> 6. Alternativas Sostenibles</h3>
+                        <p>Opciones responsables para tu consumo diario</p>
+                    </div>
+                    <div class="alternatives-list">
+                        <div class="alternative-item">
+                            <i class="fas fa-check-circle"></i>
+                            <p><strong>Prefiera capturas artesanales</strong> en vez de pesca industrial</p>
+                        </div>
+                        <div class="alternative-item">
+                            <i class="fas fa-check-circle"></i>
+                            <p><strong>Considere especies subutilizadas</strong> o de alta abundancia (ej. machuelo)</p>
+                        </div>
+                        <div class="alternative-item">
+                            <i class="fas fa-check-circle"></i>
+                            <p><strong>Priorizar productos certificados</strong> (ej. MSC) cuando existan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Razones para Consumo Responsable -->
+                <div class="guide-section">
+                    <div class="section-header">
+                        <h3><i class="fas fa-heart"></i> 7. Razones para Practicar un Consumo Responsable</h3>
+                        <p>Tu elección marca la diferencia</p>
+                    </div>
+                    <div class="reasons-grid">
+                        <div class="reason-card">
+                            <h4>🌊 Protección Marina</h4>
+                            <p>Reducción del impacto sobre poblaciones vulnerables</p>
+                        </div>
+                        <div class="reason-card">
+                            <h4>🌿 Ecosistemas</h4>
+                            <p>Protección de ecosistemas marinos del Caribe</p>
+                        </div>
+                        <div class="reason-card">
+                            <h4>🤝 Economía Sostenible</h4>
+                            <p>Fomento de cadenas de valor sostenibles</p>
+                        </div>
+                        <div class="reason-card">
+                            <h4>🍽️ Seguridad Alimentaria</h4>
+                            <p>Conservación de la seguridad alimentaria regional</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
