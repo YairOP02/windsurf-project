@@ -119,7 +119,7 @@ body {
 .hero-home {
     background-image:
         linear-gradient(135deg, rgba(0, 23, 43, 0.45), rgba(15, 118, 110, 0.25)),
-        url('/Imagenes/inicio.jpg');
+        url('../Imagenes/inicio.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -257,7 +257,7 @@ body {
 .hero-tradicion {
     background-image:
         linear-gradient(135deg, rgba(15, 23, 42, 0.6), rgba(8, 47, 73, 0.4)),
-        url('/Imagenes/Pescadores.jpg');
+        url('../Imagenes/Pescadores.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -267,7 +267,7 @@ body {
 .hero-consumo {
     background-image:
         linear-gradient(135deg, rgba(8, 47, 73, 0.7), rgba(59, 130, 246, 0.3)),
-        url('/Imagenes/mercado.jpg');
+        url('../Imagenes/mercado.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -277,7 +277,7 @@ body {
 .hero-recetas {
     background-image:
         linear-gradient(135deg, rgba(8, 47, 73, 0.7), rgba(59, 130, 246, 0.3)),
-        url('/Imagenes/comia.jpeg');
+        url('../Imagenes/comia.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -287,7 +287,7 @@ body {
 .hero-especies {
     background-image:
         linear-gradient(135deg, rgba(0, 0, 0, 0.55), rgba(31, 197, 197, 0.35)),
-        url('/Imagenes/atarraya.jpg');
+        url('../Imagenes/atarraya.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -297,7 +297,7 @@ body {
 .hero-contacto {
     background-image:
         linear-gradient(135deg, rgba(15, 23, 42, 0.65), rgba(8, 47, 73, 0.4)),
-        url('/Imagenes/contactos.jpg');
+        url('../Imagenes/contactos.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -416,7 +416,7 @@ body {
 /* Hero sections con imágenes de cardúmenes */
 .hero-small.barracuda-hero {
     background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
-                url('/Imagenes/cardumen_barracuda.jpeg');
+                url('../Imagenes/cardumen_barracuda.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -424,7 +424,7 @@ body {
 
 .hero-small.lisa-hero {
     background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
-                url('/Imagenes/cardumen_lisa.jpeg');
+                url('../Imagenes/cardumen_lisa.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -432,7 +432,7 @@ body {
 
 .hero-small.medregal-hero {
     background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
-                url('/Imagenes/cardumen_medregal.jpeg');
+                url('../Imagenes/cardumen_medregal.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -440,7 +440,7 @@ body {
 
 .hero-small.machuelo-hero {
     background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
-                url('/Imagenes/cardumen_machuelo.jpeg');
+                url('../Imagenes/cardumen_machuelo.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -448,7 +448,7 @@ body {
 
 .hero-small.jaiba-hero {
     background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
-                url('/Imagenes/cardumen_jaiba.jpeg');
+                url('../Imagenes/cardumen_jaiba.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -457,7 +457,7 @@ body {
 /* Hero para páginas de recetas individuales con imagen gastronómica */
 .hero-small.recipe-hero {
     background: linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)), 
-                url('/Imagenes/gastrono.jpg');
+                url('../Imagenes/gastrono.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1145,7 +1145,7 @@ body {
     box-shadow: var(--sombra);
     background-image:
         linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(245, 248, 252, 0.82)),
-        url('/Imagenes/Tablape.jpg');
+        url('../Imagenes/Tablape.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
