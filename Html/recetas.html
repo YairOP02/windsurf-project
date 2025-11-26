@@ -2,13 +2,21 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <!-- Base tag din�mica para GitHub Pages vs Local -->
+    <script>
+        if (window.location.hostname.includes('github.io')) {
+            document.write('<base href="/">');
+        } else {
+            document.write('<base href="../">');
+        }
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recetas del Caribe - Catálogo Caribe</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
     <header class="header">
@@ -65,7 +73,7 @@
                         <div class="card-body">
                             <h3>Lisa</h3>
                             <p>Pequeña guardiana que limpia y nutre las aguas costeras.</p>
-                            <a class="link-button" href="../Html/recetalisa.html">Ver recetas</a>
+                            <a class="link-button" href="/Html/recetalisa.html">Ver recetas</a>
                         </div>
                     </article>
 
@@ -77,7 +85,7 @@
                         <div class="card-body">
                             <h3>Barracuda</h3>
                             <p>La flecha plateada del mar, veloz y enigmática.</p>
-                            <a class="link-button" href="../Html/recetabarracuda.html">Ver recetas</a>
+                            <a class="link-button" href="/Html/recetabarracuda.html">Ver recetas</a>
                         </div>
                     </article>
 
@@ -89,7 +97,7 @@
                         <div class="card-body">
                             <h3>Medregal</h3>
                             <p>El rey oculto del Caribe, de carne firme y sabor delicado.</p>
-                            <a class="link-button" href="../Html/recetamedregal.html">Ver recetas</a>
+                            <a class="link-button" href="/Html/recetamedregal.html">Ver recetas</a>
                         </div>
                     </article>
 
@@ -101,7 +109,7 @@
                         <div class="card-body">
                             <h3>Machuelo</h3>
                             <p>Plata líquida que brilla al amanecer sobre las redes.</p>
-                            <a class="link-button" href="../Html/recetamachuelo.html">Ver recetas</a>
+                            <a class="link-button" href="/Html/recetamachuelo.html">Ver recetas</a>
                         </div>
                     </article>
 
@@ -113,7 +121,7 @@
                         <div class="card-body">
                             <h3>Jaiba</h3>
                             <p>Crustáceo de caparazón azul, símbolo de abundancia y celebración.</p>
-                            <a class="link-button" href="../Html/recetajaiba.html">Ver recetas</a>
+                            <a class="link-button" href="/Html/recetajaiba.html">Ver recetas</a>
                         </div>
                     </article>
                 </div>
